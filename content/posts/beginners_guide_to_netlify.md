@@ -1,6 +1,16 @@
-* * *
+---
+title: "The Beginner’s Guide to Netlify Continuous Deployment from Github for React Apps"
+cover: "https://unsplash.it/1280/500/?random?BoldMage"
+author: "JJ Ashcraft"
+date: "2018-11-09"
+category: "tech"
+tags:
+    - react
+    - netlify
+    - github
+---
 
-![](https://cdn-images-1.medium.com/max/2000/1*ZUhc3rXUs-pM0XbSHM9cEw.png)
+<img src="https://cdn-images-1.medium.com/max/2000/1*ZUhc3rXUs-pM0XbSHM9cEw.png" alt="drawing" width="200"/>
 
 # The Beginner’s Guide to Netlify Continuous Deployment from Github for React Apps
 
@@ -49,14 +59,14 @@ This will create a new subdirectory with react app sample code.
 
 #### Step 4\. Add your First Changes.
 
-We can push this first commit up to the master branch first. I usually run `git status` and `git add .` to add the files we worked on up until this point (which is just creating the base react app).
+We can push this first commit up to the master branch first. I usually run `git status` and `git add .` to add the files we worked on up until this point (which is just creating the base react app).
 
 ![](https://cdn-images-1.medium.com/max/1600/1*g3A419tflA2TL4XkTmQXzg.png)
 
-Now, let’s make our commit! the `-m` tells git you are supplying a message to describe your changes. Please try to give your commit messages some meaning. 
+Now, let’s make our commit! the `-m` tells git you are supplying a message to describe your changes. Please try to give your commit messages some meaning.
  `git commit -m'Initial Commit, creates new react app with create-react-app'`
 
-It’ll show you a list of files to be committed. It’s time to push our changes. 
+It’ll show you a list of files to be committed. It’s time to push our changes.
 Run the command `git push`
 
 ![](https://cdn-images-1.medium.com/max/1600/1*PntfW2rVHEyTU0AMxRYNMQ.png)
@@ -78,16 +88,16 @@ As you can see, my terminal shows what branch I’m currently on in cyan after t
 
 ![](https://cdn-images-1.medium.com/max/1600/1*axtFEZeibHy2tjvgk-u65A.png)
 
-You can see the current branches we have. `master` and `netlify-deploy` 
-When we created our branch, git automatically switches to the new one. 
+You can see the current branches we have. `master` and `netlify-deploy`
+When we created our branch, git automatically switches to the new one.
 Now any changes you make will only be made on this branch, and leaves the master unaffected until we combine the two branches.
 
 #### Step 6\. Create the toml file.
 
 We will need to create a new file in the base project directory. You may not have seem this file type before, so don’t get scared..it’s just a type of markdown file, like the Readme.MD in Github. It allows Netlify to adjust settings (like your deployment folder) when you have a React App in a subdirectory.
 
-*   [More generic info about TOML is located here.](https://github.com/toml-lang/toml)
-*   [Info about TOML, specific to Netlify (more indepth than we will go today)](https://www.netlify.com/docs/netlify-toml-reference/)
+* [More generic info about TOML is located here.](https://github.com/toml-lang/toml)
+* [Info about TOML, specific to Netlify (more indepth than we will go today)](https://www.netlify.com/docs/netlify-toml-reference/)
 
 <pre name="9cd3" id="9cd3" class="graf graf--pre graf-after--li">[TOML is a markup language](https://github.com/toml-lang/toml). The `netlify.toml` file is your configuration file on how Netlify will build and deploy your site — including redirects, branch and context specific settings, and much more. Its goal is to describe much of your site configuration via code, that you can keep with the code — with two goals:</pre>
 
@@ -116,7 +126,7 @@ command = "yarn build"</pre>
 
 #### Step 8\. Commit your New Changes.
 
-You’ll follow the first few steps that we did earlier, running `git status`, `git add .`, and adding a good commit message. `git commit -m'adds netlify.toml for continuous deployment settings'`
+You’ll follow the first few steps that we did earlier, running `git status`, `git add .`, and adding a good commit message. `git commit -m'adds netlify.toml for continuous deployment settings'`
 
 ![](https://cdn-images-1.medium.com/max/1600/1*AmKvG9b04krfnC0Ef_rwpg.png)
 
@@ -234,7 +244,7 @@ from = "/*"
 to = "/index.html"
 status = 200</pre>
 
-* * *
+---
 
 ![](https://cdn-images-1.medium.com/max/1600/1*wd81H7ud15uTyCYAH88jGA.jpeg)
 
