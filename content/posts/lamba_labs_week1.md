@@ -32,7 +32,7 @@ https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/3
 
 https://trello.com/c/Hqowrv8u
 
-##Netlify Deployment
+###Netlify Deployment
 
 https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/10
 
@@ -41,13 +41,13 @@ https://trello.com/c/jDGsXLXN
 _See blog post for detailed analysis:_
 https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31
 
-Build Login Component
+###Build Login Component
 
 https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/16
 
 https://trello.com/c/072Aios2
 
-##Landing-Page-Signup
+###Landing-Page-Signup
 
 https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/8
 
