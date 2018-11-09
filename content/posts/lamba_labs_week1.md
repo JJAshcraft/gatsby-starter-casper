@@ -22,7 +22,7 @@ These thoughts only get worse with less communication in group. So what did we d
 
 According to our project managers, more communication usually results in a better project outcomes. So we took this to the highest level we could. We would attempt to maintain contact on zoom through most of our coding sessions, with options to break away if needed at any time. What are you most interested in? Do you prefer back-end or front-end? We figured out our strong areas and our weak areas as a group. Even more important, we learned about each other. We talked, laughed and enjoyed tearing into the project details together. If we each did this alone, and then came back together…we wouldn't nearly be as close within only a few days of work. We haven't really ran into any friction yet (that I've noticed), but I'm sure we will get to that point eventually.
 
-##Contributions this week
+###Contributions this week
 
 <a href="https://github.com/Lambda-School-Labs/Labs8-TeamComms/graphs/contributors"> JJAshcraft's Contributions</a>
 
@@ -32,7 +32,7 @@ https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/3
 
 https://trello.com/c/Hqowrv8u
 
-###Netlify Deployment
+####Netlify Deployment
 
 https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/10
 
@@ -41,25 +41,28 @@ https://trello.com/c/jDGsXLXN
 _See blog post for detailed analysis:_
 https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31
 
-###Build Login Component
+####Build Login Component
 
 https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/16
 
 https://trello.com/c/072Aios2
 
-###Landing-Page-Signup
+####Landing-Page-Signup
 
 https://github.com/Lambda-School-Labs/Labs8-TeamComms/pull/8
 
 https://trello.com/c/ZkznYz0S
 
-#Team Contributions
+###Team Contributions
 
-##Database Reference
+#####Database Reference
+
 <img src="./db1.png">
 
-##Backend Reference
+####Backend Reference
+
 <img src="./backend.png">
 
-##Frontend Reference
+####Frontend Reference
+
 <img src="./backend.png">
