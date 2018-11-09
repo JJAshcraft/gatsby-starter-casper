@@ -1,7 +1,7 @@
 ---
 title: "When the Group is Happy, the Work Gets Done"
 cover: "https://unsplash.it/1280/500/?random?BoldMage"
-author: "JJ Ashcraft"
+author: "casper"
 date: "2018-11-09"
 category: "tech"
 tags:
