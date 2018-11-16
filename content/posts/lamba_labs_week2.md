@@ -20,8 +20,6 @@ This week was short, but super intense. We had a holiday on Monday (although a f
 
 We also made huge strides in the look and feel of our web app. By wednesday, we had a functioning dashboard that displays the logged in user and their current conversations. We also managed to get the MongoDB database connected to OAuth, so that a user who logs in with google gets an account created in our app as well.
 
-Detailed Analysis
-
 ##Contributions this week
 
 <a href="https://github.com/Lambda-School-Labs/Labs8-TeamComms/graphs/contributors"> JJAshcraft's Contributions</a>
@@ -105,15 +103,15 @@ Working with a team can be tough at times, as we figure out who takes on more of
 
 ####Front and back end servers are connected
 
-<img src="./week2-1.png">
+<img src="./week2-1.PNG">
 
 ####Users can create accounts and log in through the front end via OAuth
 
-<img src="./week2-2.png">
+<img src="./week2-2.PNG">
 
 ####All APIs and services are connected and can be interacted with through the front end.
 
-<img src="./week2-3.png">
+<img src="./week2-3.PNG">
 <br/>
 <br/>
-<img src="./week2-4.png">
+<img src="./week2-4.PNG">
